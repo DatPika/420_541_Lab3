@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        Cursor.lockState = CursorLockMode.Confined; // Confines the cursor to the game window
+        Cursor.lockState = CursorLockMode.Locked; // Confines the cursor to the game window
         Cursor.visible = false;
     }
 
